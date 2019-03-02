@@ -23,6 +23,9 @@
     flex: 30%;
     background-color: #ebebeb;
     padding: 20px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    text-align: center;
   }
 
   li,.main > table{
@@ -37,8 +40,8 @@
   
   .img {
     background-color: rgb(145, 145, 145);
-    width: 100%;
     padding: 5px;
+    margin: auto;
   }
   
   @media screen and (max-width: 700px) {
@@ -46,6 +49,10 @@
       flex-direction: column;
       padding-left: 0%;
       padding-right: 0%;
+    }
+    .side{
+      border-bottom-left-radius: 0px;
+      border-top-left-radius: 0px;
     }
   }
   
@@ -56,3 +63,29 @@ tr{
     text-align: left;
 }
 
+@media screen and (max-width: 600px) {
+  table{
+    font-size: 1.3em;
+  }
+  
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+  }
+  
+  table tr {
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  table td {
+    display: block;
+    font-size: .8em;
+    text-align: left;
+  }
+}
