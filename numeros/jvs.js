@@ -10,6 +10,7 @@ $(document).ready(function(){
                         $("#data").append('<div class="content">'+index+'</div>');
                     }
                 }else{
+                    start();
                     alert("Fuera de rango");
                 }
             }
@@ -63,6 +64,7 @@ $(document).ready(function(){
         })
     }
     function start(){
+        $("#size").val("10");
         for (let index = 1; index <= $("#size").val(); index++) {
             $("#data").append('<div class="content">'+index+'</div>');
         }
