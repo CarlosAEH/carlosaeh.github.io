@@ -1,0 +1,33 @@
+.content{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    display:inline-block;
+    background-color: white;
+    text-align: center;
+    border: 1px #555 solid;
+}
+
+body{
+    display: flex;
+}
+.container{
+    flex: 70%;
+    text-align: center;
+    padding: 1%;
+    border: 1px #555 solid;
+}
+.options{
+    flex: 30%;
+    text-align: center;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+}
+.buttons{
+    margin: 5%;
+}
+.buttons > button{
+    margin: 1%;
+}
