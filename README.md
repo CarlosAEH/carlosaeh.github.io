@@ -1,2 +1,0 @@
-# carlosaeh.github.io
-CarlosAEH
